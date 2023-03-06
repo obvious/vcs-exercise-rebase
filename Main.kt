@@ -1,4 +1,3 @@
-fun main() {
-  val apiKey = "<the-actual-api-key-that-has-been-leaked>"
-  println("Hello, the api key is: $apiKey")
+fun main(args: Array<String>) {
+  println("Hello, the api key is: ${args[0]}")
 }
